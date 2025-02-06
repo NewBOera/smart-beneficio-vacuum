@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitEnCasa</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/qva8lkj.css" />
+    <link rel="shortcut icon" href="/public/assets/favicon.webp" type="image/x-icon" />
+
+    <meta name="description" content="" />
+    <meta name="author" content="FitEnCasa" />
+    <meta name="created" content="January 2025" />
+    <meta name="modified" content="January 2025" />
+
+    <!-- Adobe Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/qva8lkj.css" />
+
+    <link rel="stylesheet" href="/public/styles/globals.css" />
+    <link rel="stylesheet" href="/public/styles/output.css" />
+
+    <!-- <link rel="stylesheet" href="/public/styles/popup.css" />
+    <script src="/public/scripts/popup.js"></script> -->
+
+    <link rel="stylesheet" href="/public/styles/popup.css" />
+    <script src="/public/scripts/popup.js"></script>
+
+    <!-- Components -->
+    <script src="/src/components/NavbarMobile.js" type="module"></script>
+    <script src="/src/components/NavbarDesktop.js" type="module"></script>
+    <script src="/src/components/Footer.js" type="module"></script>
+    <script src="/src/ui/booking/Form.js" type="module"></script>
+
+    <!-- Sections -->
+    <script src="/src/ui/home/Hero.js" type="module"></script>
+    <script src="/src/ui/home/Offer.js" type="module"></script>
+    <script src="/src/ui/home/Advice.js" type="module"></script>
+    <script src="/src/ui/home/MeetClients.js" type="module"></script>
+    <script src="/src/ui/home/About.js" type="module"></script>
+    <script src="/src/ui/home/Register.js" type="module"></script>
+    <script src="/src/ui/home/MeetTrainers.js" type="module"></script>
+
+  </head>
+  <body>
+    <!-- <div class="age-verification flex hidden" id="ageVerification">
+      <div class="popup-content">
+        <h2 class="popup-title">Are you 18 years of age or older?</h2>
+        <p class="popup-text">We need to verify your age to access this site, following UK regulations.</p>
+        <div class="button-group">
+          <button class="btn btn-yes" onclick="verifyAge(true)">Yes</button>
+          <button class="btn btn-no" onclick="verifyAge(false)">No</button>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <navbar-mobile is-landing="true"></navbar-mobile>
+    <navbar-desktop is-landing="true"></navbar-desktop> -->
+
+    <div class="cookies-modal hidden" id="cookiesModal">
+      <article>
+        <h2 class="cookies-title">Aviso de uso de cookies:</h2>
+        <p class="cookies-text">Nuestro sitio web utiliza cookies para mejorar su experiencia de usuario. Por favor, elija sus preferencias.</p>
+      </article>
+
+      <div class="cookies-buttons">
+        <button class="btn-yes btn" onclick="modalManager.verifyModal('cookiesModal', true)">Acepto las cookies</button>
+        <button class="btn-no btn" onclick="modalManager.verifyModal('cookiesModal', false)">Rechazo las cookies</button>
+      </div>
+    </div>
+
+    <main class="flex flex-col gap-10 md:gap-12 lg:gap-14">
+      <section id="hero-section" class="w-full">
+        <hero-section></hero-section>
+      </section>
+      <div class="fondo-main">
+
+        <div class="mx-auto flex flex-col items-center gap-10 md:gap-12 lg:gap-14 xl:gap-20 w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] px-10 sm:px-12 md:px-16 lg:px-24">
+          
+          <offer-section></offer-section>
+        </div>
+        
+        <advice-section></advice-section>
+        
+        <div class="mx-auto flex flex-col items-center gap-10 md:gap-12 lg:gap-14 xl:gap-20 w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] px-10 sm:px-12 md:px-16 lg:px-24">
+          <meet-clients-section></meet-clients-section>
+          
+          <about-section></about-section>
+          
+          <meet-trainers-section ></meet-trainers-section>
+          
+          <register-section></register-section>
+        </div>
+      </div>
+    </main>
+
+    <footer-element is-landing="true"></footer-element>
+
+    <script>
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          const hash = window.location.hash;
+          if (hash) {
+            const sectionId = hash.slice(1);
+            const section = document.getElementById(sectionId);
+            if (section) {
+              const headerHeight = 120;
+              const offset = section.offsetTop - headerHeight;
+              window.scrollTo({
+                top: offset,
+                behavior: 'smooth',
+              });
+            }
+          }
+        }, 200);
+      });
+    </script>
+  </body>
+</html>

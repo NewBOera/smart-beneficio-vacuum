@@ -1,0 +1,19 @@
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: Albert Sans, sans-serif;
+}
+
+section,
+div,
+article {
+  scroll-margin-top: 110px;
+}
+
+.fondo-main {
+  min-height: 820px;
+  background-image: url('/public/assets/fondo.webp');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
