@@ -81,13 +81,13 @@ export class Footer extends LitElement {
 
               <!-- Botones para abrir cada modal -->
               <div
-                class="flex flex-col md:flex-row gap-6 [&>button]:min-w-[202px] [&>button]:bg-orange [&>button]:text-white [&>button]:py-3 [&>button]:px-4 [&>button]:text-center [&>button]:cursor-pointer [&>button]:transition-all [&>button]:duration-200 [&>button]:rounded-[30px] [&>button]:text-xs  [&>button]:md:text-sm [&>button]:font-black"
+                class="flex flex-col md:flex-row gap-6 [&>button]:min-w-[202px] [&>button]:bg-orange [&>button]:text-white [&>button]:py-2 [&>button]:px-4 [&>button]:text-center [&>button]:cursor-pointer [&>button]:transition-all [&>button]:duration-200 [&>button]:text-xs  [&>button]:md:text-sm [&>button]:font-semibold"
               >
-                <button class="hover:scale-105 active:brightness-110" @click=${this.toggleLegalModal}>Aviso Legal</button>
+                <button class="rounded-full hover:scale-105 active:brightness-110 focus:outline-none" @click=${this.toggleLegalModal}>Aviso Legal</button>
 
-                <button class="hover:scale-105 active:brightness-110" @click=${this.togglePrivacyModal}>Política de Privacidad</button>
+                <button class="rounded-full hover:scale-105 active:brightness-110 focus:outline-none" @click=${this.togglePrivacyModal}>Política de Privacidad</button>
 
-                <button class="hover:scale-105 active:brightness-110" @click=${this.toggleTermsModal}>Términos y Condiciones</button>
+                <button class="rounded-full hover:scale-105 active:brightness-110 focus:outline-none" @click=${this.toggleTermsModal}>Términos y Condiciones</button>
               </div>
             </div>
           </div>

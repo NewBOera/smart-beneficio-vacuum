@@ -33,7 +33,7 @@ export class LegalModal extends LitElement {
       <div class="fixed inset-0 z-50 flex justify-center items-center px-4 bg-black/60">
         <div class="bg-white rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
           <!-- Modal header -->
-          <div class="flex justify-between items-center p-6 border-b bg-mint">
+          <div class="flex justify-between items-center p-6 border-b bg-navy">
             <h2 class="text-2xl font-bold text-white">Aviso Legal</h2>
             <button @click=${this._handleClose} class="text-white hover:text-gray-200 focus:outline-none">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -63,7 +63,7 @@ export class LegalModal extends LitElement {
 
           <!-- Modal footer -->
           <div class="flex justify-end p-4 border-t">
-            <button @click=${this._handleClose} class="text-white px-6 py-2 rounded-full focus:outline-none font-semibold transition-all duration-200 hover:scale-105 bg-mint hover:bg-olive">
+            <button @click=${this._handleClose} class="text-white px-6 py-2 rounded-full focus:outline-none font-semibold transition-all duration-200 bg-orange hover:scale-105 active:brightness-110">
               Cerrar
             </button>
           </div>
