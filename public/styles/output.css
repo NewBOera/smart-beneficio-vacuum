@@ -711,6 +711,10 @@ video {
   margin-top: 80px;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -851,6 +855,22 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[70px\] {
+  width: 70px;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
+.w-\[90px\] {
+  width: 90px;
+}
+
+.w-\[100px\] {
+  width: 100px;
 }
 
 .max-w-2xl {
@@ -1063,19 +1083,24 @@ video {
   background-color: rgb(0 0 0 / 0.6);
 }
 
-.bg-primary-400 {
+.bg-mint {
   --tw-bg-opacity: 1;
-  background-color: rgb(217 4 41 / var(--tw-bg-opacity, 1));
-}
-
-.bg-primary-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
+  background-color: rgb(67 170 139 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-navy {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 53 87 / var(--tw-bg-opacity, 1));
+}
+
+.bg-sky {
+  --tw-bg-opacity: 1;
+  background-color: rgb(69 123 157 / var(--tw-bg-opacity, 1));
 }
 
 .bg-opacity-80 {
@@ -1114,6 +1139,10 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-10 {
@@ -1166,6 +1195,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -1200,6 +1234,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .align-\[-0\.125em\] {
@@ -1313,14 +1351,20 @@ video {
   color: rgb(31 41 55 / var(--tw-text-opacity, 1));
 }
 
-.text-primary-400 {
-  --tw-text-opacity: 1;
-  color: rgb(217 4 41 / var(--tw-text-opacity, 1));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-navy {
+  --tw-text-opacity: 1;
+  color: rgb(29 53 87 / var(--tw-text-opacity, 1));
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-\[0px_10px_50px_-30px_\#00000024\] {
@@ -1391,9 +1435,9 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:bg-primary-500:hover {
+.hover\:bg-olive:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
+  background-color: rgb(144 190 109 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-gray-200:hover {
@@ -1401,14 +1445,29 @@ video {
   color: rgb(229 231 235 / var(--tw-text-opacity, 1));
 }
 
-.hover\:text-primary-500:hover {
+.hover\:text-mint:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 0 0 / var(--tw-text-opacity, 1));
+  color: rgb(67 170 139 / var(--tw-text-opacity, 1));
 }
 
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.active\:brightness-105:active {
+  --tw-brightness: brightness(1.05);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.active\:brightness-150:active {
+  --tw-brightness: brightness(1.5);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.active\:brightness-110:active {
+  --tw-brightness: brightness(1.1);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1523,8 +1582,20 @@ video {
     width: 768px;
   }
 
+  .md\:w-\[90\] {
+    width: 90;
+  }
+
+  .md\:w-\[200\] {
+    width: 200;
+  }
+
   .md\:max-w-\[520px\] {
     max-width: 520px;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:gap-12 {
@@ -1590,6 +1661,11 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1641,6 +1717,22 @@ video {
 
   .lg\:w-\[400px\] {
     width: 400px;
+  }
+
+  .lg\:w-\[200\] {
+    width: 200;
+  }
+
+  .lg\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .lg\:w-\[160px\] {
+    width: 160px;
+  }
+
+  .lg\:w-\[150px\] {
+    width: 150px;
   }
 
   .lg\:max-w-\[1400px\] {
@@ -1972,6 +2064,126 @@ video {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1));
   }
+}
+
+.\[\&\>button\]\:min-w-\[225px\]>button {
+  min-width: 225px;
+}
+
+.\[\&\>button\]\:min-w-\[202px\]>button {
+  min-width: 202px;
+}
+
+.\[\&\>button\]\:cursor-pointer>button {
+  cursor: pointer;
+}
+
+.\[\&\>button\]\:rounded-\[30px\]>button {
+  border-radius: 30px;
+}
+
+.\[\&\>button\]\:bg-black>button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.\[\&\>button\]\:bg-orange>button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 114 44 / var(--tw-bg-opacity, 1));
+}
+
+.\[\&\>button\]\:px-4>button {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.\[\&\>button\]\:py-2>button {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.\[\&\>button\]\:py-3>button {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.\[\&\>button\]\:text-center>button {
+  text-align: center;
+}
+
+.\[\&\>button\]\:text-\[8px\]>button {
+  font-size: 8px;
+}
+
+.\[\&\>button\]\:text-sm>button {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.\[\&\>button\]\:text-xs>button {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.\[\&\>button\]\:font-black>button {
+  font-weight: 900;
+}
+
+.\[\&\>button\]\:uppercase>button {
+  text-transform: uppercase;
+}
+
+.\[\&\>button\]\:text-black>button {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.\[\&\>button\]\:text-navy>button {
+  --tw-text-opacity: 1;
+  color: rgb(29 53 87 / var(--tw-text-opacity, 1));
+}
+
+.\[\&\>button\]\:text-white>button {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.\[\&\>button\]\:transition-all>button {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.\[\&\>button\]\:duration-200>button {
+  transition-duration: 200ms;
+}
+
+.\[\&\>button\]\:hover\:scale-105:hover>button {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@media (min-width: 768px) {
+  .\[\&\>button\]\:md\:text-lg>button {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .\[\&\>button\]\:md\:text-base>button {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .\[\&\>button\]\:md\:text-sm>button {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.\[\&\>h3\]\:text-navy>h3 {
+  --tw-text-opacity: 1;
+  color: rgb(29 53 87 / var(--tw-text-opacity, 1));
 }
 
 .\[\&\>p\]\:text-sm>p {

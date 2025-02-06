@@ -3,14 +3,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          400: '#D90429',
-          500: '#FF0000',
-        },
+        orange: '#F3722C',
+        navy: '#1D3557',
+        sky: '#457B9D',
+        olive: '#90BE6D',
+        mint: '#43AA8B',
       },
 
       fontFamily: {
-        Albert: ['Albert Sans', 'sans-serif'],
+        Inter: ['Inter', 'sans-serif'],
       },
     },
   },
