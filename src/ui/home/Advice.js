@@ -14,34 +14,29 @@ export class Advice extends LitElement {
     return html`
       <style>
         .paper-bg {
-          background-image: url('/public/assets/paper.webp');
+          background-image: url('/public/assets/paper_sm.png');
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
         }
 
-        @media (min-width: 480px) {
+        @media (min-width: 630px) {
           .paper-bg {
-            background-image: url('/public/assets/paperMd.webp');
-          }
-        }
-
-        @media (min-width: 768px) {
-          .paper-bg {
-            background-image: url('/public/assets/paperLg.webp');
-            /* background-size: contain; */
+            background-image: url('/public/assets/paper_lg.png');
+            background-size: cover;
           }
         }
       </style>
 
-      <section class=" paper-bg relative w-full min-h-[400px] md:min-h-[640px] xl:min-h-[700px] flex items-center justify-center text-center">
-        <div
-          class="relative max-w-2xl text-white uppercase leading-tight w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] px-10 sm:px-12 md:px-16  [&>p]:text-sm 2xl:[&>p]:text-base [&>p]:font-black [&>p]:leading-5"
-        >
-          <p class="md:-mt-20 lg:py-4 2xl:-mt-28">
-            Con nuestra plataforma de fitness en línea, podrás disfrutar de una experiencia profesional de entrenamiento en cualquier momento y lugar, sin necesidad de membresía en un gimnasio.
-            ¡Permítenos ayudarte a transformar tu viaje fitness hoy mismo!
-          </p>
+      <section class=" paper-bg w-full relative text-right">
+        <div class="mx-auto flex flex-col items-end justify-center w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] px-10 sm:px-12 md:px-16 lg:px-24">
+          <div class="w-1/2 text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl sm:px-10 lg:px-20 py-10 lg:py-20">
+            Además, si eres una empresa que quiere promocionar tus gadgets inteligentes, contáctanos
+            <br />
+            <a href="mailto:Info@SmartBeneficio.com" class=" text-orange hover:text-navy transition-colors duration-150 font-black">Info@SmartBeneficio.com</a>
+            <br />
+            para colaborar
+          </div>
         </div>
       </section>
     `;

@@ -12,31 +12,38 @@ export class Register extends LitElement {
   render() {
     return html`
       <style>
-        .form-bg {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/public/assets/registerBg.webp');
-          background-position: center;
+        .registerBg {
+          background-image: url('/public/assets/register/registerBg_sm.png');
+          background-position: top;
           background-size: cover;
           background-repeat: no-repeat;
         }
 
-        @media (min-width: 768px) {
-          .form-bg {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/public/assets/registerBg_md.webp');
+        @media (min-width: 746px) {
+          .registerBg {
+            background-image: url('/public/assets/register/registerBg_md.png');
           }
         }
 
-        @media (min-width: 1024px) {
-          .form-bg {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/public/assets/registerBg_lg.webp');
-            background-size: contain;
+        @media (min-width: 1280px) {
+          .registerBg {
+            background-image: url('/public/assets/register/registerBg_lg.png');
+          }
+          .image-hero {
+            display: block;
           }
         }
       </style>
-      <article class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-20 rounded-3xl form-bg w-full">
-        <section class=" col-span-1 lg:col-start-2 w-full sm:w-[380px] md:w-[440px] lg:gap-5 p-4 pb-20 lg:p-12 md:p-16">
-          <register-form></register-form>
-        </section>
-      </article>
+
+      <div
+        class="mx-auto flex flex-col items-center justify-center gap-10 md:gap-12 lg:gap-14 xl:gap-20 w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] px-10 sm:px-12 md:px-16 lg:px-24"
+      >
+        <article class="grid grid-cols-1 justify-items-center mb-20 rounded-3xl w-full">
+          <section class=" w-full sm:max-w-[500px] md:max-w-[1000px] ">
+            <register-form></register-form>
+          </section>
+        </article>
+      </div>
     `;
   }
 }

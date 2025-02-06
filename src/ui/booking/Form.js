@@ -214,32 +214,38 @@ export class RegisterForm extends LitElement {
 
       <form id="registerForm" class="flex w-full flex-col items-center justify-center">
         <!-- Basic Details Section -->
-        <div class="mb-8 w-full">
-          <h2 class="my-12 text-base text-center xl:text-xl font-normal text-white">
-            Suscríbete a nuestro boletín para saber cuándo estará disponible una clase o un entrenador, y recibir todas las noticias e información que necesitas para comenzar.
+        <div class="w-full bg-navy/80 pb-16 p-4 lg:p-12 md:p-16 rounded-3xl">
+          <h2 class="my-8 text-center text-sm md:text-base xl:text-lg font-normal text-white">
+            Si deseas recibir notificaciones sobre gadgets inteligentes que te brindarán beneficios tecnológicos y mucho más, suscríbete a nuestro boletín de noticias. ¡Mantente al día con las últimas
+            innovaciones!
           </h2>
 
-          <div class="w-full flex flex-col gap-9 text-sm">
+          <div class="w-full flex flex-col lg:grid lg:grid-cols-2 gap-9 text-sm">
             <!-- First Name Input -->
             <div class="col-span-2 md:col-span-1">
-              <input name="firstName" type="text" placeholder="Nombre" class="w-full rounded-lg bg-white px-4 py-3" required />
+              <input name="firstName" type="text" placeholder="Nombre" class="w-full rounded-full bg-white px-4 py-3" required />
             </div>
 
             <!-- Last Name Input -->
             <div class="col-span-2 md:col-span-1">
-              <input name="lastName" type="text" placeholder="Apellido" class="w-full rounded-lg bg-white px-4 py-3" required />
+              <input name="lastName" type="text" placeholder="Apellido" class="w-full rounded-full bg-white px-4 py-3" required />
             </div>
 
             <!-- Email Input -->
-            <div class="col-span-2">
-              <input name="email" type="email" placeholder="Correo electrónico" class="w-full rounded-lg bg-white px-4 py-3" required />
-            </div>
+          </div>
+
+          <div class="col-span-2 mt-9">
+            <input name="email" type="email" placeholder="Correo electrónico" class="w-full rounded-full bg-white px-4 py-3" required />
           </div>
         </div>
 
         <!-- Submit Button -->
-        <button id="submitButton" type="submit" class="w-fit rounded-full px-16 py-4 md:mt-16 text-white bg-primary-500  transition-all duration-200 hover:scale-[1.05]  text-xl font-black ">
-          Registro
+        <button
+          id="submitButton"
+          type="submit"
+          class="w-fit -mt-8 lg:-mt-6 text-white bg-primary-500 text-xl px-9 py-3 rounded-full focus:outline-none font-black transition-all duration-200 bg-orange hover:scale-105 active:brightness-110"
+        >
+          Registrarse
         </button>
       </form>
     `;
