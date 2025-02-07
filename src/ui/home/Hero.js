@@ -13,9 +13,9 @@ export class Hero extends LitElement {
     return html`
       <style>
         #hero-section {
-          min-height: 820px;
-          background-image: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url('/public/assets/hero/hero.webp');
-          background-position: bottom;
+          min-height: 800px;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url('/public/assets/hero/hero_md.png');
+          background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
         }
@@ -31,17 +31,10 @@ export class Hero extends LitElement {
           background: linear-gradient(to top, #ffffff, transparent);
         }
 
-        @media (min-width: 746px) {
+        @media (min-width: 850px) {
           #hero-section {
-            min-height: 900px;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url('/public/assets/hero/heroMd.webp');
-          }
-        }
-
-        @media (min-width: 1280px) {
-          #hero-section {
-            min-height: 1000px;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url('/public/assets/hero/heroXL.webp');
+            min-height: 950px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), transparent), url('/public/assets/hero/hero_lg.png');
 
             background-position: center;
           }
@@ -51,20 +44,31 @@ export class Hero extends LitElement {
         }
       </style>
 
-      <section id="hero-section" class="relative xl:pt-10">
-        <img class=" w-full xl:w-1/2 h-auto object-cover xl:-ml-40 mt-12 xl:mt-0" src="/public/assets/hero/navMd.webp" alt="Logo" />
-        <div
-          class="mx-auto flex flex-col gap-10 md:gap-12 lg:gap-14 xl:gap-20 w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] p-10 sm:px-12 md:px-16 lg:px-24 xl:grid xl:grid-cols-2"
-        >
-          <div class=" pt-10 md:pt-20 lg:pt-32 xl:pt-40">
-            <h1 class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-black uppercase text-center text-white main-text ">Únete a nosotros para obtener la ventaja de ponerte en forma desde casa</h1>
+      <section id="hero-section" class="relative xl:pt-10 ">
+        <div class="mx-auto h-full flex flex-col gap-10 w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] p-10 sm:px-12 md:px-16 lg:px-24">
+          <div class="flex flex-col self-start">
+            <img class="w-16 md:w-24 lg:w-28 md:mb-4 object-cover ml-auto mr-auto lg:mr-0" src="/public/assets/hero/logo.png" alt="Logo" />
+            <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-4xl font-black text-center text-white main-text md:text-left">
+              Disfruta de los
+              <br class="hidden md:!block" />
+              <span class="text-orange">BENEFICIOS</span>
+              <br class="hidden md:!block" />
+              con solo unos clics
+            </h1>
 
-            <p class="text-sm md:text-base lg:text-lg 2xl:text-xl font-normal text-center text-white main-text mt-6 xl:mt-10">
-              Ahorra tiempo y dinero aprovechando esta oportunidad en línea de hacer ejercicio desde casa utilizando internet y tu teléfono inteligente o laptop
-            </p>
+            <h2 class="text-sm md:text-base lg:text-lg 2xl:text-xl font-medium text-center md:text-left text-white main-text mt-6 xl:mt-10 ">
+              <span class="text-orange font-bold  underline">Xiaomi Robot Vacuum S20</span>
+              , la máquina que te dará la oportunidad de disfrutar de beneficios diarios a través de una sola pantalla, en cualquier momento y lugar.
+            </h2>
           </div>
+
+          <div class=" self-end"></div>
         </div>
-        <div class=" hidden sm:!block z-30 absolute w-full bottom-0 h-28 gradientWhite py-4"></div>
+        <div class="flex z-10 absolute w-full bottom-0 h-28 gradientWhite  sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] px-10 sm:px-12 md:px-16 lg:px-24">
+          <p class="text-xs md:text-sm lg:text-base xl:text-lg font-medium bg-olive p-7 rounded-3xl rounded-tl-none text-navy self-start -mt-16">
+            Hoy, en SmartBeneficio, revisaremos el Xiaomi S20 Robot Vacuum, destacando sus ventajas tecnológicas y cómo puede mejorar tu experiencia de limpieza diaria.
+          </p>
+        </div>
       </section>
     `;
   }
