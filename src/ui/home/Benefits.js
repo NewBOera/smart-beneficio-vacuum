@@ -17,38 +17,38 @@ export class Benefits extends LitElement {
         <div class="flex flex-col gap-7 md:flex-row md:justify-center md:items-center md:gap-10">
           <section class="flex flex-col gap-7 text-center md:text-left">
             <div>
-              <h3 class="text-sm  lg:text-base xl:text-lg text-center lg:text-left text-orange font-black mb-2">Navegación inteligente y menos complicaciones:</h3>
+              <h3 class="text-sm  lg:text-base xl:text-lg text-center md:text-left text-orange font-black mb-2">Maximiza tu tiempo:</h3>
               <p class="text-xs lg:text-sm xl:text-base font-normal text-gray-700">
-                La aspiradora utiliza tecnología de navegación láser, reduciendo los puntos olvidados y asegurando que todo tu espacio esté cubierto. Con múltiples sensores, se maneja de manera
-                eficiente alrededor de obstáculos y evita caídas, brindándote tranquilidad y un hogar siempre limpio.
+                El Xiaomi Robot Vacuum S20 te ofrece una ventaja significativa al ahorrarte tiempo y esfuerzo todos los días. Olvídate de pasar horas aspirando o fregando; deja que el robot haga el
+                trabajo mientras tú te concentras en tareas más importantes.
               </p>
             </div>
             <div>
-              <h3 class="text-sm  lg:text-base xl:text-lg text-center lg:text-left text-orange font-black mb-2">Comodidad sin manos:</h3>
+              <h3 class="text-sm  lg:text-base xl:text-lg text-center md:text-left text-orange font-black mb-2">Oportunidad en línea para una vida inteligente:</h3>
               <p class="text-xs lg:text-sm xl:text-base font-normal text-gray-700">
-                Con limpieza sin manos, no tienes que preocuparte por vaciar los depósitos de polvo o rellenar los tanques de agua con frecuencia. El depósito de polvo de 400ml y el tanque de agua de
-                270ml están diseñados para durar más, dándote más tiempo para relajarte mientras limpia.
+                Con la app Mi Home/Xiaomi Home, esta aspiradora se puede controlar de manera remota, brindándote la oportunidad de gestionar la limpieza desde cualquier lugar. Ya sea que estés en el
+                trabajo, de vacaciones o simplemente descansando en casa, puedes programar y monitorear las limpiezas con solo unos toques.
               </p>
             </div>
             <div>
-              <h3 class="text-sm  lg:text-base xl:text-lg text-center lg:text-left text-orange font-black mb-2">Integración con control por voz:</h3>
+              <h3 class="text-sm  lg:text-base xl:text-lg text-center md:text-left text-orange font-black mb-2">Limpieza eficiente y potente:</h3>
               <p class="text-xs lg:text-sm xl:text-base font-normal text-gray-700">
-                Aprovecha las funciones de comando por voz con Alexa y Google Assistant, lo que te permite controlar la aspiradora fácilmente con solo tu voz, agregando aún más comodidad a tu rutina
-                diaria.
+                Equipado con una potencia de succión de 5000Pa y capacidades de aspirado y fregado 2 en 1, elimina eficazmente la suciedad, el polvo y el cabello, garantizando pisos más limpios con
+                menos esfuerzo. La aspiradora aborda de manera eficiente las áreas de difícil acceso, maximizando su rendimiento con cada limpieza.
               </p>
             </div>
             <div>
-              <h3 class="text-sm  lg:text-base xl:text-lg text-center lg:text-left text-orange font-black mb-2">Beneficios a largo plazo:</h3>
+              <h3 class="text-sm  lg:text-base xl:text-lg text-center md:text-left text-orange font-black mb-2">Planes de limpieza personalizados:</h3>
               <p class="text-xs lg:text-sm xl:text-base font-normal text-gray-700">
-                Con su diseño duradero, potente succión y características inteligentes, el Xiaomi Robot Vacuum S20 es una inversión que ofrece beneficios continuos, haciendo que tu rutina de limpieza
-                sea más fácil y eficiente cada día.
+                La aspiradora crea un mapa preciso de tu hogar y te permite establecer zonas de limpieza. Con la opción de elegir áreas específicas para limpiar o evitar, puedes disfrutar de una
+                experiencia de limpieza adaptada a tus preferencias.
               </p>
             </div>
             <div>
-              <h3 class="text-sm  lg:text-base xl:text-lg text-center lg:text-left text-orange font-black mb-2">Tiempo libre y productividad:</h3>
+              <h3 class="text-sm  lg:text-base xl:text-lg text-center md:text-left text-orange font-black mb-2">Beneficios diarios en limpieza:</h3>
               <p class="text-xs lg:text-sm xl:text-base font-normal text-gray-700">
-                Con el Xiaomi Robot Vacuum S20 manejando la limpieza, puedes concentrarte en otras actividades que agreguen valor a tu vida. Ya sea trabajando, haciendo ejercicio o pasando tiempo de
-                calidad con tus seres queridos, la aspiradora asegura que tu hogar se mantenga limpio sin interrupciones.
+                Al invertir en el Xiaomi Robot Vacuum S20, obtienes el beneficio diario de un hogar constantemente limpio y ordenado. La aspiradora funciona de forma automática, reduciendo la
+                necesidad de limpieza manual, lo que significa más tiempo libre para ti y menos energía gastada en el mantenimiento.
               </p>
             </div>
           </section>
@@ -70,28 +70,28 @@ export class Benefits extends LitElement {
               </p>
             </div>
             <div>
-              <h3 class="text-sm  lg:text-base xl:text-lg text-center lg:text-left text-orange font-black mb-2">Comodidad sin manos:</h3>
+              <h3 class="text-sm  lg:text-base xl:text-lg text-center md:text-left text-orange font-black mb-2">Comodidad sin manos:</h3>
               <p class="text-xs lg:text-sm xl:text-base font-normal text-gray-700">
                 Con limpieza sin manos, no tienes que preocuparte por vaciar los depósitos de polvo o rellenar los tanques de agua con frecuencia. El depósito de polvo de 400ml y el tanque de agua de
                 270ml están diseñados para durar más, dándote más tiempo para relajarte mientras limpia.
               </p>
             </div>
             <div>
-              <h3 class="text-sm  lg:text-base xl:text-lg text-center lg:text-left text-orange font-black mb-2">Integración con control por voz:</h3>
+              <h3 class="text-sm  lg:text-base xl:text-lg text-center md:text-left text-orange font-black mb-2">Integración con control por voz:</h3>
               <p class="text-xs lg:text-sm xl:text-base font-normal text-gray-700">
                 Aprovecha las funciones de comando por voz con Alexa y Google Assistant, lo que te permite controlar la aspiradora fácilmente con solo tu voz, agregando aún más comodidad a tu rutina
                 diaria.
               </p>
             </div>
             <div>
-              <h3 class="text-sm  lg:text-base xl:text-lg text-center lg:text-left text-orange font-black mb-2">Beneficios a largo plazo:</h3>
+              <h3 class="text-sm  lg:text-base xl:text-lg text-center md:text-left text-orange font-black mb-2">Beneficios a largo plazo:</h3>
               <p class="text-xs lg:text-sm xl:text-base font-normal text-gray-700">
                 Con su diseño duradero, potente succión y características inteligentes, el Xiaomi Robot Vacuum S20 es una inversión que ofrece beneficios continuos, haciendo que tu rutina de limpieza
                 sea más fácil y eficiente cada día.
               </p>
             </div>
             <div>
-              <h3 class="text-sm  lg:text-base xl:text-lg text-center lg:text-left text-orange font-black mb-2">Tiempo libre y productividad:</h3>
+              <h3 class="text-sm  lg:text-base xl:text-lg text-center md:text-left text-orange font-black mb-2">Tiempo libre y productividad:</h3>
               <p class="text-xs lg:text-sm xl:text-base font-normal text-gray-700">
                 Con el Xiaomi Robot Vacuum S20 manejando la limpieza, puedes concentrarte en otras actividades que agreguen valor a tu vida. Ya sea trabajando, haciendo ejercicio o pasando tiempo de
                 calidad con tus seres queridos, la aspiradora asegura que tu hogar se mantenga limpio sin interrupciones.

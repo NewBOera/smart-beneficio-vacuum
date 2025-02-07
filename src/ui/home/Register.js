@@ -21,14 +21,11 @@ export class Register extends LitElement {
 
         @media (min-width: 746px) {
           .registerBg {
-            background-image: url('/public/assets/register/registerBg_md.webp');
+            background-image: url('/public/assets/register/registerBg_lg.webp');
           }
         }
 
         @media (min-width: 1280px) {
-          .registerBg {
-            background-image: url('/public/assets/register/registerBg_lg.webp');
-          }
           .image-hero {
             display: block;
           }

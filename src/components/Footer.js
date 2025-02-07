@@ -97,7 +97,7 @@ export class Footer extends LitElement {
           <div
             class="mx-auto flex flex-col items-center gap-10 md:gap-12 lg:gap-14 xl:gap-20 w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] px-10 sm:px-12 md:px-16 lg:px-24 py-6"
           >
-            <span class="w-full text-white text-xs md:text-sm text-center">SmartBeneficio &copy;</span>
+            <span class="w-full text-white text-xs md:text-sm text-center">&copy; SmartBeneficio 2025</span>
           </div>
         </section>
 
