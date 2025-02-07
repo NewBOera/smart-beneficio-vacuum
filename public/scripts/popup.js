@@ -21,8 +21,8 @@ const cookieManager = {
 
 const modalManager = {
   modals: {
-    ageVerification: { cookieName: 'FitEnCasa.com_age', expirationDays: 2 },
-    cookiesModal: { cookieName: 'FitEnCasa.com_cookies', expirationDays: 3 },
+    ageVerification: { cookieName: 'SmartBeneficio.com_age', expirationDays: 2 },
+    cookiesModal: { cookieName: 'SmartBeneficio.com_cookies', expirationDays: 3 },
   },
 
   init() {

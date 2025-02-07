@@ -3,7 +3,7 @@
   position: fixed;
   bottom: -100%;
   width: 100%;
-  background: #1a1a1a;
+  background: #1D3557;
   padding: 3rem;
   text-align: center;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -24,7 +24,7 @@
   margin-bottom: 1.5rem;
   color: white;
   font-weight: 700;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Inter', serif;
   text-transform: capitalize;
   letter-spacing: 0.5px;
   text-align: start;
@@ -79,9 +79,9 @@
 }
 
 .btn-yes {
-  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  background: linear-gradient(135deg, #F3722C, #f3a32c);
   color: white;
-  box-shadow: 0 4px 15px rgba(255, 78, 80, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 172, 78, 0.3);
 }
 
 .btn-no {
@@ -95,8 +95,8 @@
 }
 
 .btn-yes:hover {
-  background: linear-gradient(135deg, #ff3d40, #f8c412);
-  box-shadow: 0 6px 20px rgba(255, 78, 80, 0.4);
+  background: linear-gradient(135deg, #F3722C, #f3a32c);
+  box-shadow: 0 6px 20px rgba(255, 164, 78, 0.4);
 }
 
 .btn-no:hover {
@@ -168,13 +168,13 @@
 }
 
 .popup-content {
-  background: linear-gradient(135deg, #990c0c, #660606);
+  background: linear-gradient(135deg, #b15321, #833d18);
   padding: 3rem;
   border-radius: 20px;
   text-align: center;
   max-width: 520px;
   width: 90%;
-  box-shadow: 0 8px 32px rgba(153, 12, 12, 0.3);
+  box-shadow: 0 8px 32px rgba(153, 75, 12, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
   animation: fadeIn 0.3s ease-out;
 }
@@ -215,9 +215,9 @@
 }
 
 .btn-yes {
-  background: #D90429;
+  background: #F3722C;
   color: white;
-  box-shadow: 0 4px 15px rgba(178, 56, 56, 0.3);
+  box-shadow: 0 4px 15px rgba(178, 105, 56, 0.3);
 }
 
 .btn-no {
@@ -231,8 +231,8 @@
 }
 
 .btn-yes:hover {
-  background: #FF0000;
-  box-shadow: 0 6px 20px rgba(178, 56, 56, 0.4);
+  background: #f17c39;
+  box-shadow: 0 6px 20px rgba(178, 105, 56, 0.3);
   cursor: pointer;
 }
 
