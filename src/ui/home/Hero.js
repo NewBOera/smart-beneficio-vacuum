@@ -14,7 +14,7 @@ export class Hero extends LitElement {
       <style>
         #hero-section {
           min-height: 800px;
-          background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url('/public/assets/hero/hero_md.png');
+          background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url('/public/assets/hero/hero_md.webp');
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
@@ -34,7 +34,7 @@ export class Hero extends LitElement {
         @media (min-width: 850px) {
           #hero-section {
             min-height: 1000px;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1), transparent), url('/public/assets/hero/hero_lg.png');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), transparent), url('/public/assets/hero/hero_lg.webp');
 
             background-position: center;
           }
@@ -46,7 +46,7 @@ export class Hero extends LitElement {
 
       <section id="hero-section" class="relative xl:pt-10">
         <div class="flex flex-col mx-auto w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] p-10 sm:px-12 md:px-16 lg:px-24">
-          <img class="w-16 md:w-24 lg:w-28 xl:w-36 2xl:w-44  md:mb-4 object-cover ml-auto mr-auto lg:mr-0" src="/public/assets/hero/logo.png" alt="Logo" />
+          <img class="w-16 md:w-24 lg:w-28 xl:w-36 2xl:w-44  md:mb-4 object-cover ml-auto mr-auto lg:mr-0" src="/public/assets/hero/logo.webp" alt="Logo" />
           <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-center text-white main-text md:text-left lg:mt-40 xl:mt-20">
             Disfruta de los
             <br class="hidden md:!block" />

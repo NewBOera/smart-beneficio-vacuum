@@ -53,11 +53,11 @@ export class Benefits extends LitElement {
             </div>
           </section>
 
-          <img src="/public/assets/benefits/benefits_1_sm.png" class="object-contain w-full max-w-[320px] mx-auto md:hidden" alt="Benefits second image" title="Benefits 2" />
+          <img src="/public/assets/benefits/benefits_1_sm.webp" class="object-contain w-full max-w-[320px] mx-auto md:hidden" alt="Benefits second image" title="Benefits 2" />
 
-          <img src="/public/assets/benefits/benefits_1_md.png" class="object-contain w-full max-w-[250px] mx-auto hidden md:!block xl:!hidden" alt="Benefits second image" title="Benefits 2" />
+          <img src="/public/assets/benefits/benefits_1_md.webp" class="object-contain w-full max-w-[250px] mx-auto hidden md:!block xl:!hidden" alt="Benefits second image" title="Benefits 2" />
 
-          <img src="/public/assets/benefits/benefits_1_lg.png" class="object-contain w-full max-w-[450px] mx-auto hidden xl:!block" alt="Benefits second image" title="Benefits 2" />
+          <img src="/public/assets/benefits/benefits_1_lg.webp" class="object-contain w-full max-w-[450px] mx-auto hidden xl:!block" alt="Benefits second image" title="Benefits 2" />
         </div>
 
         <div class="flex flex-col gap-10 md:flex-row-reverse md:justify-center md:items-center md:gap-10 md:-mt-20 xl:-mt-0">
@@ -99,11 +99,11 @@ export class Benefits extends LitElement {
             </div>
           </section>
 
-          <img src="/public/assets/benefits/benefits_2_sm.png" class="object-contain w-full max-w-[320px] mx-auto md:hidden" alt="Benefits second image" title="Benefits 2" />
+          <img src="/public/assets/benefits/benefits_2_sm.webp" class="object-contain w-full max-w-[320px] mx-auto md:hidden" alt="Benefits second image" title="Benefits 2" />
 
-          <img src="/public/assets/benefits/benefits_2_md.png" class="object-contain w-full max-w-[250px] mx-auto hidden md:!block xl:!hidden" alt="Benefits second image" title="Benefits 2" />
+          <img src="/public/assets/benefits/benefits_2_md.webp" class="object-contain w-full max-w-[250px] mx-auto hidden md:!block xl:!hidden" alt="Benefits second image" title="Benefits 2" />
 
-          <img src="/public/assets/benefits/benefits_2_lg.png" class="object-contain w-full max-w-[450px] mx-auto hidden xl:!block" alt="Benefits second image" title="Benefits 2" />
+          <img src="/public/assets/benefits/benefits_2_lg.webp" class="object-contain w-full max-w-[450px] mx-auto hidden xl:!block" alt="Benefits second image" title="Benefits 2" />
         </div>
 
         <p class="text-xs lg:text-sm xl:text-base font-medium bg-mint p-7 rounded-3xl rounded-tl-none text-white mt-12 lg:mt-20">

@@ -62,11 +62,11 @@ export class About extends LitElement {
             </div>
           </section>
 
-          <img src="/public/assets/about/about_sm.png" class="object-contain w-full max-w-[320px] mx-auto md:hidden" alt="Benefits second image" title="Benefits 2" />
+          <img src="/public/assets/about/about_sm.webp" class="object-contain w-full max-w-[320px] mx-auto md:hidden" alt="Benefits second image" title="Benefits 2" />
 
-          <img src="/public/assets/about/about_md.png" class="object-contain h-auto md:col-start-2 mx-auto hidden md:!block xl:!hidden" alt="Benefits second image" title="Benefits 2" />
+          <img src="/public/assets/about/about_md.webp" class="object-contain h-auto md:col-start-2 mx-auto hidden md:!block xl:!hidden" alt="Benefits second image" title="Benefits 2" />
 
-          <img src="/public/assets/about/about_lg.png" class="object-contain w-full col-span-2 mx-auto hidden xl:!block" alt="Benefits second image" title="Benefits 2" />
+          <img src="/public/assets/about/about_lg.webp" class="object-contain w-full col-span-2 mx-auto hidden xl:!block" alt="Benefits second image" title="Benefits 2" />
 
           <div class="hidden xl:!flex flex-col gap-7 col-span-1 text-left">
             <div>

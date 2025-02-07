@@ -13,7 +13,7 @@ export class Register extends LitElement {
     return html`
       <style>
         .registerBg {
-          background-image: url('/public/assets/register/registerBg_sm.png');
+          background-image: url('/public/assets/register/registerBg_sm.webp');
           background-position: top;
           background-size: cover;
           background-repeat: no-repeat;
@@ -21,13 +21,13 @@ export class Register extends LitElement {
 
         @media (min-width: 746px) {
           .registerBg {
-            background-image: url('/public/assets/register/registerBg_md.png');
+            background-image: url('/public/assets/register/registerBg_md.webp');
           }
         }
 
         @media (min-width: 1280px) {
           .registerBg {
-            background-image: url('/public/assets/register/registerBg_lg.png');
+            background-image: url('/public/assets/register/registerBg_lg.webp');
           }
           .image-hero {
             display: block;

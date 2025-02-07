@@ -14,7 +14,7 @@ export class Advice extends LitElement {
     return html`
       <style>
         .paper-bg {
-          background-image: url('/public/assets/paper_sm.png');
+          background-image: url('/public/assets/paper_sm.webp');
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
@@ -22,7 +22,7 @@ export class Advice extends LitElement {
 
         @media (min-width: 630px) {
           .paper-bg {
-            background-image: url('/public/assets/paper_lg.png');
+            background-image: url('/public/assets/paper_lg.webp');
             background-size: cover;
           }
         }

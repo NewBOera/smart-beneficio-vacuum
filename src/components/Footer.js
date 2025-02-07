@@ -77,7 +77,7 @@ export class Footer extends LitElement {
             class="mx-auto flex flex-col md:flex-row text-center justify-center items-center gap-10 md:gap-12 lg:gap-14 xl:gap-20 w-full sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-[1300px] px-10 sm:px-12 md:px-16 lg:px-24 py-6 md:py-10 lg:py-14"
           >
             <div class="flex flex-col items-center text-center text-white text-xs md:text-lg gap-6">
-              <img src="/public/assets/footer/logo.png" class="w-[100px] lg:w-[150px]" alt="Logo" />
+              <img src="/public/assets/footer/logo.webp" class="w-[100px] lg:w-[150px]" alt="Logo" />
 
               <!-- Botones para abrir cada modal -->
               <div
