@@ -12,6 +12,8 @@ export class Benefits extends LitElement {
   render() {
     return html`
       <section id="WePresent-section" class="flex flex-col gap-7 md:gap-0">
+        <h2 class="text-base  lg:text-lg xl:text-xl text-center md:text-left text-orange font-black mb-2 uppercase">Cómo puedes beneficiarte</h2>
+
         <div class="flex flex-col gap-7 md:flex-row md:justify-center md:items-center md:gap-10">
           <section class="flex flex-col gap-7 text-center md:text-left">
             <div>
@@ -103,6 +105,12 @@ export class Benefits extends LitElement {
 
           <img src="/public/assets/benefits/benefits_2_lg.png" class="object-contain w-full max-w-[450px] mx-auto hidden xl:!block" alt="Benefits second image" title="Benefits 2" />
         </div>
+
+        <p class="text-xs lg:text-sm xl:text-base font-medium bg-mint p-7 rounded-3xl rounded-tl-none text-white mt-12 lg:mt-20">
+          En conclusión, el Xiaomi Robot Vacuum S20 ofrece tanto beneficios diarios en términos de tiempo ahorrado como ventajas a largo plazo mediante una limpieza eficiente e inteligente. Es una
+          oportunidad en línea para cualquiera que busque una solución moderna y sin manos para las tareas del hogar, ayudándote a aprovechar al máximo tu día y disfrutar de los beneficios de un hogar
+          impecable con mínimo esfuerzo.
+        </p>
       </section>
     `;
   }
